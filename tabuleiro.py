@@ -21,25 +21,25 @@ class Tabuleiro:
         self.propriedades = [
             Propriedade(0,0,"Inicio"),                              #0 Inicio
             Propriedade(60,  5, "Apartamento - Ibirapuera"),        #1
-            Propriedade(60, 35, "Loja - Moema"),                   #2
-            Propriedade(20, 5, "Supermercado - Brooklin"),         #3
-            Propriedade(70, 15, "Apartamento - Santo Amaro"),      #4
+            Propriedade(60, 35, "Loja - Moema"),                    #2
+            Propriedade(20, 5, "Supermercado - Brooklin"),          #3
+            Propriedade(70, 15, "Apartamento - Santo Amaro"),       #4
             Propriedade(120, 55, "Mercearia - Socorro"),            #5
-            Propriedade(90, 60, "Pastelaria - Tatuape"),           #6
-            Propriedade(60, 15, "Loja - Penha"),                   #7
-            Propriedade(30,  5, "Farmacia - Santana"),             #8
+            Propriedade(90, 60, "Pastelaria - Tatuape"),            #6
+            Propriedade(60, 15, "Loja - Penha"),                    #7
+            Propriedade(30,  5, "Farmacia - Santana"),              #8
             Propriedade(230, 60, "Hotel - Casa Verde"),             #9
-            Propriedade(40,  5, "Escola - Butantã"),               #10
+            Propriedade(40,  5, "Escola - Butantã"),                #10
             Propriedade(110, 55, "Apartamento - Pirituba"),         #11
             Propriedade(60 , 15, "Loja - Freguesia do O"),          #12
-            Propriedade(50, 15, "Supermercado - Lapa"),            #13
+            Propriedade(50, 15, "Supermercado - Lapa"),             #13
             Propriedade(130, 50, "Apartamento - Pinheiros"),        #14
-            Propriedade(60, 5 , "Mercearia - Pompeia"),            #15
-            Propriedade(30, 5, "Hotel - Vila Madalena"),          #16
-            Propriedade(85, 30, "Loja - Santa Ifigenia"),          #17
+            Propriedade(60, 5 , "Mercearia - Pompeia"),             #15
+            Propriedade(30, 5, "Hotel - Vila Madalena"),            #16
+            Propriedade(85, 30, "Loja - Santa Ifigenia"),           #17
             Propriedade(70 , 25, "Farmacia - Anhangabau"),          #18
-            Propriedade(60, 10, "Minimercado - Liberdade"),        #19
-            Propriedade(20,  5, "Escola - Mooca"),                 #20
+            Propriedade(60, 10, "Minimercado - Liberdade"),         #19
+            Propriedade(20,  5, "Escola - Mooca"),                  #20
         ]
 
         self.NUM_PROPRIEDADES = len(self.propriedades) - 1
